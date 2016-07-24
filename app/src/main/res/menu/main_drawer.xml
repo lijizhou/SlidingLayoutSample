@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="camera"/>
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Call"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Share"/>
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Search"/>
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="Help"/>
+            <item
+                android:id="@+id/nav_sett"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Setting"/>
+        </menu>
+    </item>
+
+</menu>

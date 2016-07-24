@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lijizhou.slidinglayoutsample.MainActivity">
+
+   <android.support.v7.widget.Toolbar
+       android:id="@+id/toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       android:background="@color/colorPrimary"
+       app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+       app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="SlidingPaneLayout"
+       android:onClick="SlidingPaneLayout"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="DrawerLayout"
+       android:onClick="DrawerLayout"
+       />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="DrawerLayout + NavigationView"
+       android:onClick="NavigationView"
+       />
+
+</LinearLayout>
