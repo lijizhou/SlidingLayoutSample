@@ -5,7 +5,7 @@ Using Android API to build the sliding layout samples.
 ##Drawerlayout
 ![Drawerlayout](http://oas1lqq3p.bkt.clouddn.com/p4.gif)
 ##Drawerlayout + NavigationView
-![NavigationView](http://oas1lqq3p.bkt.clouddn.com/p3.gif)
+![NavigationView](http://oas1lqq3p.bkt.clouddn.com/p8.gif)
 
 
 ## License
