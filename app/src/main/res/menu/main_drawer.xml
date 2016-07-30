@@ -1,35 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/navigation_item1"
+            android:checkable="true"
+            android:title="XXXX"
+            android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/navigation_item2"
+            android:checkable="true"
+            android:title="XXXX"
+            android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/navigation_item3"
+            android:checkable="true"
+            android:title="XXXX"
+            android:icon="@mipmap/ic_launcher"/>
+        <item android:id="@+id/navigation_item4"
+            android:checkable="true"
+            android:title="XXXX"
+            android:icon="@mipmap/ic_launcher"/>
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@android:drawable/ic_menu_camera"
-            android:title="camera"/>
-        <item
-            android:id="@+id/nav_call"
-            android:icon="@android:drawable/ic_menu_call"
-            android:title="Call"/>
-        <item
-            android:id="@+id/nav_share"
-            android:icon="@android:drawable/ic_menu_share"
-            android:title="Share"/>
-        <item
-            android:id="@+id/nav_search"
-            android:icon="@android:drawable/ic_menu_search"
-            android:title="Search"/>
     </group>
-
-    <item android:title="Other">
+    <item android:id="@+id/navigation_sub"
+        android:title="其他">
         <menu>
-            <item
-                android:id="@+id/nav_help"
-                android:icon="@android:drawable/ic_menu_help"
-                android:title="Help"/>
-            <item
-                android:id="@+id/nav_sett"
-                android:icon="@android:drawable/ic_menu_manage"
-                android:title="Setting"/>
+            <item android:id="@+id/navigation_sub_item1"
+                android:checkable="true"
+                android:title="xxxx"
+                android:icon="@mipmap/ic_launcher"/>
+            <item android:id="@+id/navigation_sub_item2"
+                android:checkable="true"
+                android:title="xxxx"
+                android:icon="@mipmap/ic_launcher"/>
+            <item android:id="@+id/navigation_sub_item3"
+                android:checkable="true"
+                android:title="xxxx"
+                android:icon="@mipmap/ic_launcher"/>
         </menu>
     </item>
+
 
 </menu>
